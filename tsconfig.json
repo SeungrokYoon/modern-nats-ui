@@ -21,7 +21,8 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@store/*": ["src/redux/store/*"],
+      "@slice/*": ["src/redux/slice/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "jest.setup.js"],
